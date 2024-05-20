@@ -1,0 +1,82 @@
+body{
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://i.postimg.cc/3wFng76b/bg.jpg");
+    background-size: cover;
+    background-position: 50%;
+    height: 90vh;
+}
+/* ~~~~~nav~~~~~~~~ */
+nav img{
+    width: 25%;
+}
+.btn-dark{
+    border-radius: 0.20rem;
+    padding: 4px 8px;
+    z-index: 10;
+    margin-right: 10px;
+    
+}
+.red-btn{
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 0.20rem;
+    padding: 5px 15px;
+    z-index: 10;
+
+}
+.red-btn:hover{
+    background-color: rgba(195,15,20);
+}
+/* ~~~~~~~~matter~~~~~~~~~~ */
+.box{
+    font-size: 5rem;
+    font-weight: 900;
+    
+}
+.box-first{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.box-second{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+/* ~~~~~~~input~~~~~~~~ */
+.form-control::placeholder {
+    color: white;
+    opacity: 1; 
+}
+
+/* ~~~~~~img & video~~~~~~~~~~~~~~~~~~~~ */
+
+.embed-responsive-16by9 video {
+    max-width: 70%;
+    height: 70%;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+@media (max-width: 550px) {
+    .embed-responsive-16by9 video {
+        max-width: 90%;
+        height: 60%; 
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+}
+@media (min-width: 770px) and (max-width: 1050px) {
+    .embed-responsive-16by9 video {
+        max-width: 90%; 
+        height: 60%;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+}
